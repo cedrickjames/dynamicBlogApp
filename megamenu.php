@@ -475,7 +475,7 @@ display: block;
 <nav  style="background-color: #0f142a;z-index: 1000; height: 50px" class="block md:hidden bg-white px-2 sm:px-4 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="h-full container flex flex-wrap items-center justify-between mx-auto">
   <a class="h-full flex items-center" >
-        <img src="resources/img/logo/teamlogo - Copy.png" class="mr-3 h-2/4 sm:h-16" alt="Flowbite Logo" >
+        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-2/4 sm:h-16" alt="Flowbite Logo" >
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
   <div class="flex md:order-2">
@@ -524,7 +524,7 @@ display: block;
 <div style="z-index: 2000" id="sidebar" class="block md:hidden fixed top-0 left-0 z-40 h-screen p-0 overflow-y-auto transition-transform -translate-x-full bg-white w-full dark:bg-white" tabindex="-1" aria-labelledby="sidebar-label">
 <div style="background-color: #0f142a; height: 50px" class="w-full">
 <a class="h-full  items-center" >
-        <img src="resources/img/logo/teamlogo - Copy.png" class="mr-3 h-full" alt="Flowbite Logo" >
+        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-full" alt="Flowbite Logo" >
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
 </div>
@@ -578,7 +578,7 @@ display: block;
 <div style="z-index: 2100" id="properties" class="block md:hidden fixed top-0 left-0 z-40 h-screen p-0 overflow-y-auto transition-transform -translate-x-full bg-white w-full dark:bg-white" tabindex="-1" aria-labelledby="sidebar-label">
 <div style="background-color: #0f142a; height: 50px" class="w-full">
 <a class="h-full  items-center" >
-        <img src="resources/img/logo/teamlogo - Copy.png" class="mr-3 h-full" alt="Flowbite Logo" >
+        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-full" alt="Flowbite Logo" >
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
 </div>
