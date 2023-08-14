@@ -70,7 +70,7 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elecsys</title>
-    
+    <link rel="shortcut icon" href="./resources/img/Elecsys Images/elecsys-site-logo-1.png">
     <!-- font awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" /> -->
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
@@ -187,7 +187,7 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
 
 <!-- button go to top -->
 
-<a onclick="topFunction()" id="myBtn" class="bg-amber-700"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+<a onclick="topFunction()" id="myBtn" class="bg-blue-600"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
 </svg></a> 
 
@@ -427,7 +427,7 @@ activepage.classList.add("text-cyan-500");
 </div>
 <!-- Container -->
 
-<section style="500px" class="m-2 sm:m-10 justify-center sm:h-screen flex text-center items-center">
+<section style="500px" class="hidden m-2 sm:m-10 justify-center sm:h-screen flex text-center items-center">
 
 <div id="default-carousel" class="relative w-full" style="height: 500px" data-carousel="static">
     <!-- Carousel wrapper -->
@@ -507,7 +507,7 @@ activepage.classList.add("text-cyan-500");
 
 </section>
 
-<section class=" mb-22 m-2.5" >
+<section class="hidden mb-22 m-2.5" >
     <div class="grid grid-cols-3 bg-red ">
         <div class="col-span-3 md:col-span-2 m-2 sm:m-10">
             <!-- <p class="ml-1 my-4 text-lg text-gray-500">License: HLURB LTS No. 30729</p> -->
@@ -581,7 +581,7 @@ activepage.classList.add("text-cyan-500");
   </div>
   
   </section>
-  <section class="mx-0 sm:mx-12" >
+  <section class="hidden mx-0 sm:mx-12" >
   <div
   id="carouselExampleCaptions"
   class="relative h-1/4 sm:h-2/4"
@@ -796,7 +796,7 @@ activepage.classList.add("text-cyan-500");
 <div class="container py-0 sm:px-6 mx-auto" >
 
   <!-- Section: Design Block -->
-  <section class=" text-gray-800 text-center">
+  <section class="hidden text-gray-800 text-center">
 
     <h2 class="text-3xl font-bold my-12 text-center">Latest articles</h2>
 
@@ -1004,7 +1004,7 @@ activepage.classList.add("text-cyan-500");
 <div class="container py-2  px-2 sm:px-6 mx-auto" id="services">
 
   <!-- Section: Design Block -->
-  <section class="mb-20 text-gray-800">
+  <section class="hidden mb-20 text-gray-800">
     <h2 class="text-3xl font-bold mb-12 text-center">What We Do Offer
     <!-- <hr class="my-6 border-yellow-500" /> -->
     </h2>
@@ -1217,7 +1217,7 @@ activepage.classList.add("text-cyan-500");
           px-6
           py-2.5
           
-          text-amber-400
+          text-blue-500
           font-medium
           text-xs
           leading-tight
@@ -1235,7 +1235,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex items-start">
               <div class="shrink-0">
               <div  style="background-color: #0f142a" class="p-4 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-              <a href="#" class="text-amber-500 hover:text-amber-900 dark:hover:text-white">
+              <a href="#" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
               <i class="fa-solid fa-location-dot fa-lg"></i>
             </a>
                 </div>
@@ -1251,7 +1251,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex items-start">
               <div class="shrink-0">
               <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-               <a href="#" class="text-amber-500 hover:text-amber-900 dark:hover:text-white">
+               <a href="#" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
                <i class="fa-solid fa-envelope fa-lg"></i>
               </a>
              
@@ -1260,7 +1260,7 @@ activepage.classList.add("text-cyan-500");
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Email</p>
                 
-                <p class="text-gray-500">teamrayproperties@gmail.com</p>
+                <p class="text-gray-500">elecsys@elecsys.com</p>
               </div>
             </div>
           </div>
@@ -1268,7 +1268,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex align-start">
               <div class="shrink-0">
               <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-              <a href="#" class="text-amber-500 hover:text-amber-900 dark:hover:text-white">
+              <a href="#" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
               <i class="fa-solid fa-mobile-screen-button fa-lg"></i>
               </a>
              
@@ -1285,7 +1285,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex align-start">
               <div class="shrink-0">
                 <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                <a href="https://www.facebook.com/teamrayproperties/" class="text-amber-500 hover:text-amber-900 dark:hover:text-white">
+                <a href="https://www.facebook.com/teamrayproperties/" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
                 <i class="fa-brands fa-facebook fa-lg"></i>
               </a>
                 
@@ -1293,7 +1293,7 @@ activepage.classList.add("text-cyan-500");
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Facebook</p>
-                <a href="https://www.facebook.com/teamrayproperties/" class="text-gray-500">Team Ray</a>
+                <a href="https://www.facebook.com/teamrayproperties/" class="text-gray-500">Elecsys</a>
                
               </div>
             </div>
@@ -1349,7 +1349,7 @@ activepage.classList.add("text-cyan-500");
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com/" class="flex items-center">
-                <img src="resources/img/logo/teamlogo - Copy.png" class="h-8 mr-3" alt="FlowBite Logo" />
+                <img src="resources/img/logo/elecsys-logo-colored.png" class="h-8 mr-3" alt="FlowBite Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
             </a>
         </div>
@@ -1357,10 +1357,10 @@ activepage.classList.add("text-cyan-500");
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Teamray™</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://flowbite.com/" class="hover:underline">Elecsys</a>
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a href="https://www.facebook.com/teamrayproperties/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <a href="https://www.facebook.com/elecsys/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                 <span class="sr-only">Facebook page</span>
             </a>
