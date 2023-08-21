@@ -112,9 +112,9 @@ display: block;
 <nav
   class="main-navbar bg-opacity-0 hidden md:block  fixed flex w-full items-center justify-between   text-cyan-600 shadow-lg  dark:text-neutral-200 dark:shadow-black/5 lg:flex-wrap lg:justify-start"
   style=" z-index: 1000" data-te-navbar-ref>
-  <div class="h-full px-6 container flex flex-wrap items-center justify-between mx-0 md:mx-auto ">
+  <div class="h-full px-6  flex flex-wrap items-center justify-between  ">
     <a class="flex items-center">
-      <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-2/4 sm:h-16" alt="Flowbite Logo">
+      <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-10 lg:h-16" alt="Flowbite Logo">
       <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
     <!-- <button
@@ -146,7 +146,7 @@ display: block;
         <a  href="tel:+639175253067" type="button" id="cont2"
           class="hidden text-white bg-cyan-500  focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 sm:mr-0 dark:bg-cyan-500  dark:focus:ring-cyan-800">+639175253067</a>
         <a  href="tel:+639175253067" type="button" id="cont1"
-          class=" text-white bg-transparent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 sm:mr-0 dark:bg-transparent  dark:focus:ring-blue-800 ">
+          class=" text-white bg-transparent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center mr-3 sm:mr-0 dark:bg-transparent  dark:focus:ring-blue-800 ">
           <svg class=" w-10 h-full m-auto text-white" fill="none" stroke="currentColor" stroke-width="1.5"
             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
             class="h-32 w-32 [color]-$fill-color"
@@ -197,156 +197,81 @@ display: block;
           <div class="mega-menu top-16">
             <div
               class="dropdown-content -6 py-5 lg:px-8 w-3/4 xl:w-2/4 m-auto  rounded-lg border-none bg-white bg-clip-padding shadow-lg dark:bg-neutral-50">
-              <div class="grid gap-6 md:grid-cols-3 xl:grid-cols-3  text-xs dark:text-black">
+              <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-2 text-xs dark:text-black">
                 <div>
                   <p
                     class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
 
-                    Condominium
+                    Certification
                   </p>
 
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
+                      <img src="resources/img/Elecsys Images/cert.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Bloom Residences
+                       IATF 16949: 2016
                       </p>
-                      <p>near Sucat Exit SLEX</p>
+                      <p></p>
                     </div>
                   </a>
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
+                      <img src="resources/img/Elecsys Images/cert2.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Air Residences
+                       ISO 9001
                       </p>
-                      <p>Brgy San Antonio, Makati City</p>
+                      <p>Quality Management Systemy</p>
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Breeze Residences
-                      </p>
-                      <p>Roxas Boulevard, Pasay City</p>
-                    </div>
-                  </a>
+                 
 
                 </div>
                 <div>
                   <p
                     class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    House and Lot
+                    Mission / Vission
                   </p>
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
+                      <img src="resources/img/Background Images/home_no_4_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Calm Residences
+                       Mission
                       </p>
-                      <p>Sta. Rosa City, Laguna</p>
+                      <p></p>
                     </div>
                   </a>
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
+                      <img src="resources/img/Background Images/home_no_6_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Cheerful Homes
+                       Vission
                       </p>
-                      <p>Mabalacat City, Pampanga</p>
+                      <p></p>
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Coast Residences
-                      </p>
-                      <p>Makati City</p>
-                    </div>
-                  </a>
-
+                  
                 </div>
-                <div>
-                  <p
-                    class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Residential Offices
-                  </p>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Cool Suites and Wind Residences
-                      </p>
-                      <p>Tagaytay City, Cavite</p>
-                    </div>
-                  </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Gem Residences
-                      </p>
-                      <p>C5, Pasig City</p>
-                    </div>
-                  </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Field Residences
-                      </p>
-                      <p>beside SM Sucat, Quezon City</p>
-                    </div>
-                  </a>
-
-                </div>
+                
 
               </div>
             </div>
@@ -475,7 +400,7 @@ display: block;
 <nav  style="background-color: #0f142a;z-index: 1000; height: 50px" class="block md:hidden bg-white px-2 sm:px-4 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="h-full container flex flex-wrap items-center justify-between mx-auto">
   <a class="h-full flex items-center" >
-        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-2/4 sm:h-16" alt="Flowbite Logo" >
+        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-10 sm:h-16" alt="Flowbite Logo" >
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
   <div class="flex md:order-2">
@@ -534,7 +459,7 @@ display: block;
     </button>
 <div class="h-4/6 p-4 grid grid-cols-2 md:grid-cols-3 gap-2">
   <a href="#">  
-    <div class="h-full rounded-lg"  style="background-image: url('resources/img/Air-Residences-Mall-Facade.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class="h-full rounded-lg"  style="background-image: url('resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div class="row-start-4 row-span-2 text-white font-extrabold">Home <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
@@ -542,7 +467,7 @@ display: block;
     </div>
   </a>
   <a  data-drawer-target="properties" data-drawer-show="properties" aria-controls="properties"  >  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Air-Residences-Grand-Lobby-1.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div  class="row-start-4 row-span-2 text-white font-extrabold">Quality System <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
@@ -552,7 +477,7 @@ display: block;
     </div>
             </a>
             <a  data-drawer-target="services" data-drawer-show="services" aria-controls="services" >  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/condo1.png'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_2_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
@@ -560,10 +485,10 @@ display: block;
     </div>
             </a>
             <a href="aboutus">  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/air_14.jpeg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <!-- <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div> -->
+    <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
     </div>
     </div>
             </a>

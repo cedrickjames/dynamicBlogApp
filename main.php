@@ -88,8 +88,8 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
     <link rel="shortcut icon" href="resources/img/logo.png">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" /> -->
-    <!-- <script src="node_modules/aos/src/js/aos.js"></script> -->
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <script src="node_modules/aos/src/js/aos.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
@@ -223,7 +223,7 @@ activepage.classList.add("text-cyan-500");
 <div>
 
 <!-- Section: Design Block -->
-<div class="relative overflow-hidden h-screen">
+<div class="relative overflow-hidden h-1/2 lg:h-screen">
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
     <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div>
@@ -231,20 +231,20 @@ activepage.classList.add("text-cyan-500");
     <!-- <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#083344] to-[#082f49] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div> -->
-    <div class=" pl-0 lg:pl-32 max-w-2xl  sm:py-48 py-32">
-      <div class="hidden sm:mb-8 sm:flex sm:justify-left">
-        <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-100 ring-1 ring-gray-300/10 hover:ring-gray-300/20">
-          Announcing our next round of funding. <a href="#" class="font-semibold text-sky-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+    <div class=" pl-0 lg:pl-32 max-w-2xl  sm:py-24 py-32">
+      <div class=" mb-8 text-center sm:text-left">
+        <div class="relative rounded-full px-3 py-1 text-xs sm:text-sm leading-6 text-gray-100 ring-1 ring-gray-300/10 hover:ring-gray-300/20">
+          You may send us inquiries <a href="#contact" class="font-semibold text-sky-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="text-center sm:text-left">
         <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">ELECSYS</h1>
-        <h3 class="mt-4 text-2xl font-bold tracking-tight text-gray-200 sm:text-2xl">MANUFACTURING CORPORATION</h3>
+        <h3 class="mt-4 text-2xl font-bold tracking-tight text-gray-200 text-xl sm:text-2xl">MANUFACTURING CORPORATION</h3>
 
         <p class="mt-6 text-lg leading-8 text-gray-300">Elecsys Manufacturing Corporation provides EMS solutions based in the Philippine Free Trade Zone</p>
-        <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-left gap-x-6">
-          <a href="#" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
+        <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
+          <a href="#home" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</a>
+          <a href="#more" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>
@@ -273,7 +273,7 @@ activepage.classList.add("text-cyan-500");
             <div class="text-lg ml-4">
 
             <ul class=" space-y-1 text-gray-500 list-inside dark:text-gray-900 flex flex-col gap-2">
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -282,7 +282,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Electronic and Microelectronics Assembly
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -291,7 +291,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Electro-Mechanical Assembly
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -300,7 +300,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     X-ray analysis system
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -310,7 +310,7 @@ activepage.classList.add("text-cyan-500");
                     Four fully-equipped SMT lines With Solder Paste Inspection machine.
 
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -319,7 +319,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     RoHS or non-RoHS assemblies
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -328,7 +328,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Nitrogen (N2) Reflow Oven and 12 Zone IR Reflow Oven
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -337,7 +337,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Lead Free wave solder machine
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -349,7 +349,7 @@ activepage.classList.add("text-cyan-500");
 
 
 
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -358,7 +358,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Automated Radial Insertion machine
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -367,7 +367,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Laser Etching machine
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -376,7 +376,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Tape and Reel Capabilities.
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -385,7 +385,7 @@ activepage.classList.add("text-cyan-500");
                     </svg>
                     Automated Conformal Coating Line.
                 </li>
-                <li class="flex items-center">
+                <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -393,7 +393,7 @@ activepage.classList.add("text-cyan-500");
                             clip-rule="evenodd"></path>
                     </svg>
                     Full Test Capabilities.
-                </li>  <li class="flex items-center">
+                </li>  <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
                         viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -408,16 +408,18 @@ activepage.classList.add("text-cyan-500");
        
 </div>
         </div>
-        <div   class="mx-2 sm:mx-0 mb-12 lg:mb-0">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  class="h-full">
           <img
             src="resources/img/Elecsys Images/elecsys-site-logo-1.png"
-            class="w-full rounded-lg shadow-lg h-max"
+            class=" w-3/6 md:5/6 lg:w-full rounded-lg h-max  m-auto lg:my-20"
             alt=""
           />
         </div>
       </div>
     </div>
-    <h2 class="mt-10 mb-2 text-3xl font-semibold text-gray-900 dark:text-gray-900 mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsam! Eligendi neque ipsam a quo assumenda commodi amet magnam, sint optio velit atque porro cum iste laboriosam fugiat maxime accusantium?
+    <h2 class="hidden mt-10 mb-2 text-3xl font-semibold text-gray-900 dark:text-gray-900 mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsam! Eligendi neque ipsam a quo assumenda commodi amet magnam, sint optio velit atque porro cum iste laboriosam fugiat maxime accusantium?
 </h2>
   </div>
 </section>
@@ -425,6 +427,79 @@ activepage.classList.add("text-cyan-500");
 
 
 </div>
+
+<section class="overflow-hidden text-neutral-700 text-center" id="more">
+<!-- <h1 class="m-auto text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
+                    class="text-transparent bg-clip-text bg-gray-900">Certification and Registrations</span>
+            </h1> -->
+  <div class=" mx-auto px-2 sm:px-8 py-2 lg:px-8 lg:pt-10">
+    <div class="grid grid-col-1 lg:grid-cols-4 md:grid-cols-2 gap-4">
+    <div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="./properties#certificates" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/cert.png')">
+        <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert.png" alt="" /> -->
+    </a>
+    <div class="p-5">
+        <a href="./properties#certificates" >
+            <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">IATF 16949: 2016 Certified</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-400">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be conformance to the following standard(s)</p>
+        <a href="./properties#certificates" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+            Read more
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+<div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="./properties#certificates" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/cert2.png')">
+        <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert2.png" alt="" /> -->
+    </a>
+    <div class="p-5">
+        <a href="./properties#certificates">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">ISO 9001 : 2015 Certified</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Manufacture of Display Modules and PCBA has been assessed and registered by NQA agaist the provisions of BS EN ISO 9001  ...</p>
+        <a href="./properties#certificates" class=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+            Read more
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+<div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Background Images/home_no_1_min.jpg')">
+        <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
+    </a>
+    <div class="p-5">
+        <a href="./properties#mission">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Mission</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is ti exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
+        <a href="./properties#mission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+            Read more
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+<div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="./properties#vission" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/mission.png')">
+        <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
+    </a>
+    <div class="p-5">
+        <a href="./properties#vission">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vission</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
+        <a href="./properties#vission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+            Read more
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+
+    </div>
+
+
+  </div>
+</section>
 <!-- Container -->
 
 <section style="500px" class="hidden m-2 sm:m-10 justify-center sm:h-screen flex text-center items-center">
@@ -1356,7 +1431,7 @@ activepage.classList.add("text-cyan-500");
         
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between">
+    <div class="flex items-center justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://flowbite.com/" class="hover:underline">Elecsys</a>
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
