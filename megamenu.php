@@ -230,7 +230,7 @@ display: block;
                       <p class="mb-1 font-semibold ">
                        ISO 9001
                       </p>
-                      <p>Quality Management Systemy</p>
+                      <p>Quality Management System</p>
                     </div>
                   </a>
                  
@@ -277,7 +277,7 @@ display: block;
             </div>
           </div>
         </li>
-        <li class="mb-2 dropdown justify-center h-full items-center flex" >
+        <li class="hidden mb-2 dropdown justify-center h-full items-center flex" >
           <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-cyan-600 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="services" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
             id="dropdownMenuButtonQ" data-te-dropdown-toggle-ref aria-expanded="false" data-te-nav-link-ref
@@ -386,7 +386,7 @@ display: block;
             </div>
           </div>
         </li>
-        <li class="mb-2 justify-center h-full items-center flex">
+        <li class="hidden mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
@@ -433,10 +433,10 @@ display: block;
                
             </div>
         </li>
-        <li>
+        <li class="hidden">
           <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Virtual Tour</a>
         </li>
-        <li>
+        <li class="hidden">
           <a href="aboutus" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
         </li>
       </ul>
@@ -476,7 +476,7 @@ display: block;
  
     </div>
             </a>
-            <a  data-drawer-target="services" data-drawer-show="services" aria-controls="services" >  
+            <a class="hidden"  data-drawer-target="services" data-drawer-show="services" aria-controls="services" >  
     <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_2_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
@@ -484,7 +484,7 @@ display: block;
     </div>
     </div>
             </a>
-            <a href="aboutus">  
+            <a class="hidden" href="aboutus">  
     <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
@@ -517,151 +517,77 @@ display: block;
                   <p
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
 
-                    Condominium
+                    Certification
                   </p>
 
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
+                      <img src="resources/img/Elecsys Images/cert.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Bloom Residences
+                      IATF 16949: 2016
                       </p>
-                      <p>near Sucat Exit SLEX</p>
+                      <!-- <p>near Sucat Exit SLEX</p> -->
                     </div>
                   </a>
                   <a href="properties" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
+                      <img src="resources/img/Elecsys Images/cert2.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Air Residences
+                      ISO 9001
                       </p>
-                      <p>Brgy San Antonio, Makati City</p>
+                      <p>Quality Management Systemy</p>
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Breeze Residences
-                      </p>
-                      <p>Roxas Boulevard, Pasay City</p>
-                    </div>
-                  </a>
+                 
 
                 </div>
                 <div>
                   <p
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    House and Lot
+                    Mission and Vission
                   </p>
-                  <a href="properties" aria-current="true"
+                  <a href="properties#mission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
+                      <img src="resources/img/Background Images/home_no_4_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Calm Residences
+                        Mission
                       </p>
-                      <p>Sta. Rosa City, Laguna</p>
+                      <!-- <p>Sta. Rosa City, Laguna</p> -->
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
+                  <a href="properties#vission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
+                      <img src="resources/img/Background Images/home_no_6_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                        Cheerful Homes
+                       Vission
                       </p>
-                      <p>Mabalacat City, Pampanga</p>
+                      <!-- <p>Mabalacat City, Pampanga</p> -->
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Coast Residences
-                      </p>
-                      <p>Makati City</p>
-                    </div>
-                  </a>
+                  
 
                 </div>
-                <div>
-                  <p
-                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Residential Offices
-                  </p>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Cool Suites and Wind Residences
-                      </p>
-                      <p>Tagaytay City, Cavite</p>
-                    </div>
-                  </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Gem Residences
-                      </p>
-                      <p>C5, Pasig City</p>
-                    </div>
-                  </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Field Residences
-                      </p>
-                      <p>beside SM Sucat, Quezon City</p>
-                    </div>
-                  </a>
-
-                </div>
+                
 
               </div>
     

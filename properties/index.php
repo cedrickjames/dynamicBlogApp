@@ -341,18 +341,18 @@ activepage.classList.add("text-cyan-500");
 
   <section class=" mb-22 m-2.5">
     <div class="grid grid-cols-3 bg-red ">
-        <div class="col-span-3 md:col-span-2 m-2 sm:m-10">
+        <div id="mission"  class="col-span-3 md:col-span-2 m-2 sm:m-10">
             <!-- <p class="ml-1 my-4 text-lg text-gray-500">License: HLURB LTS No. 30729</p> -->
-            <h1 id="#mission" class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
+            <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
             </h1>
 
             <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
             Our mission is tge exceed curtomer's expectations by providing the highest quality products with the most competitive prices  in a timely manner.
             </p>
             <div class="inline-flex items-center justify-center w-full">
-                <hr class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
+                <hr id="vission" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
             </div>
-            <h1 id="vission"class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vission</span>
+            <h1  class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vission</span>
             </h1>
 
             <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
