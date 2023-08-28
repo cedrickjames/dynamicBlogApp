@@ -248,7 +248,7 @@ activepage.classList.add("text-cyan-500");
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
     <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
-<div class="relative isolate w-full px-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
+<div class="relative isolate w-full p-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
 
 
     <div class="grid md:grid-cols-2 gap-0 md:gap-12 flex items-center">
@@ -258,7 +258,7 @@ activepage.classList.add("text-cyan-500");
         <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">Quality System</h1>
         <h3 class="mt-4 text-2xl font-bold tracking-tight text-gray-200 text-xl sm:text-2xl">Making sure we provide the highest quality.</h3>
 
-        <p class="mt-6 text-lg leading-8 text-gray-300"> Electronic Systems Manufacturing Corp. (Elecsys MFG) has developed an outstanding reputation for customer service, on time delivery and producing high quality products at very competitive prices. We are able to provide consignment and turnkey manufacturing solutions for through hole and surface mount assemblies, testing and right through to complete box builds.</p>
+        <p class="text-justify mt-6 text-lg leading-8 text-gray-300"> Electronic Systems Manufacturing Corp. (Elecsys MFG) has developed an outstanding reputation for customer service, on time delivery and producing high quality products at very competitive prices. We are able to provide consignment and turnkey manufacturing solutions for through hole and surface mount assemblies, testing and right through to complete box builds.</p>
         <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
           <a href="#home" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</a>
           <a href="#more" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
@@ -267,7 +267,7 @@ activepage.classList.add("text-cyan-500");
     </div>
     <div class=" max-w-2xl  sm:py-14 py-0">
   
-<div class="grid grid-cols-3 gap-3">
+<div class="hidden md:grid grid-cols-3 gap-3">
     <div class="grid gap-4">
         <div class="h-24">
             <!-- <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""> -->
@@ -305,6 +305,32 @@ activepage.classList.add("text-cyan-500");
 
 </div>
 
+<div class="block md:hidden grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_1_min.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_2_min.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_4_min.jpg" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_5_min.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_6_min.jpg" alt="">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="../resources/img/Background Images/home_no_5_min.jpg" alt="">
+        </div>
+    </div>
+
+</div>
+
     </div>
   </div>
 
@@ -319,16 +345,83 @@ activepage.classList.add("text-cyan-500");
 
 </div>
 <section class="overflow-hidden text-neutral-700 text-center" id="certificates">
-  <div class=" mx-auto px-10 py-10 md:px-40 md:py-4 lg:px-72 lg:py-10">
-  <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
+  <div class=" mx-auto p-2 md:px-10 md:py-4 lg:px-10 lg:py-10">
+  <h1 class=" text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
         class="text-transparent bg-clip-text bg-gray-900">Certifications</span>
     </h1>
-  <div class="grid gap-4">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+        <div  class="mt-4 sm:mt-12 lg:mt-10 ">
+        <div >
+      <div class=" mb-8 text-center sm:text-left">
+      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Elecsys Manufacturing Corporation Certificate
+        </div>
+      </div>
+      <div class="text-center sm:text-left">
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">IATF 16949:2016</h1>
+        <p class="text-justify mt-6 text-lg leading-8 text-gray-600">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be in conformance to the IATF 16949:2016</p>
+        <h3 class="text-left mt-4 text-2xl font-bold tracking-tight text-gray-600 text-xl sm:text-2xl">	Scope of Registration:</h3>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">Manufacture of printed circuit board assembly (PCBA)
+</p>
+
+        <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
+          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+        </div> -->
+      </div>
+    </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  class="h-full">
+          <img
+            src="../resources/img/Elecsys Images/cert.png"
+            class=" w-full rounded-lg h-max  m-auto lg:my-20"
+            alt=""
+          />
+        </div>
+      </div>
+  </div>
+  <div class="container" id="certificates2">
+      <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+        <div  class="mt-12 lg:mt-10 ">
+        <div >
+      <div class=" mb-8 text-center sm:text-left">
+      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Elecsys Manufacturing Corporation Certificate
+        </div>
+      </div>
+      <div class="text-center sm:text-left">
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">ISO 9001:2015</h1>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be in conformance to the ISO 9001:2015</p>
+        <h3 class="text-left  mt-4 text-2xl font-bold tracking-tight text-gray-600 text-xl sm:text-2xl">	Scope of Registration:</h3>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">	Manufacture of display modules, security system RFID and printed circuit board assembly(PCBA)</p>
+
+        <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
+          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+        </div> -->
+      </div>
+    </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  class="h-full">
+          <img
+            src="../resources/img/Elecsys Images/cert2.png"
+            class="w-full rounded-lg h-max  m-auto lg:my-20"
+            alt=""
+          />
+        </div>
+      </div>
+  </div>
+  <div class="hidden grid gap-4">
         <div class="image-container" id="mainImageContainer" style="background-image: url('../resources/img/Elecsys Images/cert.png');">
         </div>
         <div class="grid" id="thumbnailContainer">
+            <div class="thumbnail" style="background-image: url('../resources/img/Elecsys Images/cert.png');"></div>
             <div class="thumbnail" style="background-image: url('../resources/img/Elecsys Images/cert2.png');"></div>
-            <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg');"></div>
             <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg');"></div>
             <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg');"></div>
             <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg');"></div>
@@ -339,15 +432,15 @@ activepage.classList.add("text-cyan-500");
   </div>
   </section>
 
-  <section class=" mb-22 m-2.5">
+  <section id="mission"  class=" mb-22 m-2.5">
     <div class="grid grid-cols-3 bg-red ">
-        <div id="mission"  class="col-span-3 md:col-span-2 m-2 sm:m-10">
+        <div  class="col-span-3 md:col-span-2 m-2 sm:m-10">
             <!-- <p class="ml-1 my-4 text-lg text-gray-500">License: HLURB LTS No. 30729</p> -->
             <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
             </h1>
 
             <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
-            Our mission is tge exceed curtomer's expectations by providing the highest quality products with the most competitive prices  in a timely manner.
+            Our mission is to exceed curtomer's expectations by providing the highest quality products with the most competitive prices  in a timely manner.
             </p>
             <div class="inline-flex items-center justify-center w-full">
                 <hr id="vission" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
@@ -368,7 +461,51 @@ activepage.classList.add("text-cyan-500");
   </div>
   <div class="hidden md:block col-span-1 ">
 
-<div style="background-image: url('../resources/img/building2.png');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    
+</div>
+
+</div>
+  </div>
+  
+  </section>
+  <section id="qualitypolicy"class=" mb-22 m-0  bg-gray-900  ">
+    <div class=" grid grid-cols-3 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90%">
+        <div  class="  col-span-3 md:col-span-2 m-2 sm:m-10">
+        <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
+            </h1>
+            <div  class="">
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>lient focus is the 
+            approach of Elecsys to
+            </p>
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">U</span>pgrade services and achieved product requirements
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">S</span>ustain continual improvement of the Quality Management System by providing necessary trainings; Implement
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>ime bound to meet delivery; Use
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">0</span>pportunity and strength to advance and ensure continuous improvement; We
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">M</span>easure performance to guarantee customer satisfaction;
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>nhance quality awareness of employees at all level of all organization;
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">R</span>esult driven to ensure customers, shareholders and employees have their expectation exceeded while complying to related statutory and regulatory requirements.
+           
+            </p>
+            </div>
+         
+           <div >
+
+
+    </div>
+          
+          
+
+  </div>
+  <div class="hidden md:block col-span-1 m-10">
+
+<div style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
     
 </div>
 
@@ -420,7 +557,7 @@ activepage.classList.add("text-cyan-500");
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Mission</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is ti exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is to exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
         <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>

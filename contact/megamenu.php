@@ -183,7 +183,7 @@ display: block;
         </li>
         <li class="mb-2 dropdown justify-center h-full items-center flex"id="activeNav" >
           <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-cyan-600 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
-            href="properties" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
+            href="../qualitysystem" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
             id="dropdownMenuButtonQ" data-te-dropdown-toggle-ref aria-expanded="false" data-te-nav-link-ref
             es>Quality System
             <span class="ml-2 w-2">
@@ -197,16 +197,36 @@ display: block;
           <div class="mega-menu top-16">
             <div
               class="dropdown-content -6 py-5 lg:px-8 w-3/4 xl:w-2/4 m-auto  rounded-lg border-none bg-white bg-clip-padding shadow-lg dark:bg-neutral-50">
-              <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-2 text-xs dark:text-black">
+              <div class="grid gap-2 md:grid-cols-3 xl:grid-cols-3 text-xs dark:text-black">
                 <div>
+                <p
+                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+
+                    Main
+                  </p>
+
+                  <a href="../qualitysystem" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                    <div class="shrink-0">
+                      <img src="../resources/img/Background Images/home_no_1_min.jpg"
+                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
+                        alt="Hollywood Sign on The Hill" />
+                    </div>
+                    <div class="ml-4 grow">
+                      <p class="mb-1 font-semibold ">
+                       Quality System
+                      </p>
+                      <p></p>
+                    </div>
+                  </a>
                   <p
-                    class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
 
                     Certification
                   </p>
 
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                  <a href="#certificates" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Elecsys Images/cert.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
@@ -219,8 +239,8 @@ display: block;
                       <p></p>
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                  <a href="#certificates2" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Elecsys Images/cert2.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
@@ -238,11 +258,11 @@ display: block;
                 </div>
                 <div>
                   <p
-                    class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
                     Mission / Vission
                   </p>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                  <a href="#mission" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_4_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
@@ -255,8 +275,8 @@ display: block;
                       <p></p>
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
-                    class="flex w-full items-center  px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                  <a href="#vission" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_6_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
@@ -271,7 +291,28 @@ display: block;
                   </a>
                   
                 </div>
-                
+                <div>
+                  <p
+                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                    Quality Policy
+                  </p>
+                  <a href="#qualitypolicy" aria-current="true"
+                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                    <div class="shrink-0">
+                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
+                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
+                        alt="Hollywood Sign on The Hill" />
+                    </div>
+                    <div class="ml-4 grow">
+                      <p class="mb-1 font-semibold ">
+                       Quality Policy
+                      </p>
+                      <p></p>
+                    </div>
+                  </a>
+                  
+                  
+                </div>
 
               </div>
             </div>
@@ -296,7 +337,7 @@ display: block;
               <div class="grid gap-6 md:grid-cols-3 xl:grid-cols-2  text-xs dark:text-black">
                 <div>
                   <p
-                    class="block w-full  px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
 
                     Real Estate Services
                   </p>
@@ -386,9 +427,9 @@ display: block;
             </div>
           </div>
         </li>
-        <li class="hidden mb-2 justify-center h-full items-center flex">
+        <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
-            href="aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
+            href="../aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
       </ul>
     </div>
@@ -437,7 +478,7 @@ display: block;
           <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Virtual Tour</a>
         </li>
         <li>
-          <a href="aboutus" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
+          <a href="../aboutus" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
         </li>
       </ul>
     </div>
@@ -466,7 +507,7 @@ display: block;
     </div>
     </div>
   </a>
-  <a  data-drawer-target="properties" data-drawer-show="properties" aria-controls="properties"  >  
+  <a  data-drawer-target="qualitysystem" data-drawer-show="qualitysystem" aria-controls="qualitysystem"  >  
     <div class="h-full rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
@@ -484,7 +525,7 @@ display: block;
     </div>
     </div>
             </a>
-            <a class="hidden" href="aboutus">  
+            <a class="" href="../aboutus">  
     <div class="h-full rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
@@ -500,19 +541,42 @@ display: block;
 
 
 <!-- drawer component -->
-<div style="z-index: 2100" id="properties" class="block md:hidden fixed top-0 left-0 z-40 h-screen p-0 overflow-y-auto transition-transform -translate-x-full bg-white w-full dark:bg-white" tabindex="-1" aria-labelledby="sidebar-label">
+<div style="z-index: 2100" id="qualitysystem" class="block md:hidden fixed top-0 left-0 z-40 h-screen p-0 overflow-y-auto transition-transform -translate-x-full bg-white w-full dark:bg-white" tabindex="-1" aria-labelledby="sidebar-label">
 <div style="background-color: #0f142a; height: 50px" class="w-full">
 <a class="h-full  items-center" >
-        <img src="resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-full" alt="Flowbite Logo" >
+        <img src="../resources/img/logo/elecsys-logo-colored.png" class="mr-3 h-full" alt="Elecsys Logo" >
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
 </div>
-    <button type="button"   data-drawer-toggle="properties" aria-controls="properties" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
+    <button type="button"   data-drawer-toggle="qualitysystem" aria-controls="qualitysystem" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         <span class="sr-only">Close menu</span>
     </button>
 <div>
   <div class="grid gap-6   text-xs dark:text-black">
+  <div>
+                  <p
+                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                   Main
+                  </p>
+                  <a href="../qualitysystem" aria-current="true"
+                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                    <div class="shrink-0">
+                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
+                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
+                        alt="Hollywood Sign on The Hill" />
+                    </div>
+                    <div class="ml-4 grow">
+                      <p class="mb-1 font-semibold ">
+                        Quality System
+                      </p>
+                      <!-- <p>Sta. Rosa City, Laguna</p> -->
+                    </div>
+                  </a>
+                  
+                  
+
+                </div>
                 <div>
                   <p
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
@@ -520,10 +584,10 @@ display: block;
                     Certification
                   </p>
 
-                  <a href="properties" aria-current="true"
+                  <a href="../qualitysystem#certificates" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/Elecsys Images/cert.png"
+                      <img src="../resources/img/Elecsys Images/cert.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
@@ -534,10 +598,10 @@ display: block;
                       <!-- <p>near Sucat Exit SLEX</p> -->
                     </div>
                   </a>
-                  <a href="properties" aria-current="true"
+                  <a href="../qualitysystem#certificates2" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/Elecsys Images/cert2.png"
+                      <img src="../resources/img/Elecsys Images/cert2.png"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
@@ -556,10 +620,10 @@ display: block;
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
                     Mission and Vission
                   </p>
-                  <a href="properties#mission" aria-current="true"
+                  <a href="../qualitysystem#mission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/Background Images/home_no_4_min.jpg"
+                      <img src="../resources/img/Background Images/home_no_4_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
@@ -570,10 +634,10 @@ display: block;
                       <!-- <p>Sta. Rosa City, Laguna</p> -->
                     </div>
                   </a>
-                  <a href="properties#vission" aria-current="true"
+                  <a href="../qualitysystem#vission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="resources/img/Background Images/home_no_6_min.jpg"
+                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
@@ -587,7 +651,29 @@ display: block;
                   
 
                 </div>
-                
+                <div>
+                  <p
+                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
+                    Quality Policy
+                  </p>
+                  <a href="../qualitysystem#mission" aria-current="true"
+                    class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
+                    <div class="shrink-0">
+                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
+                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
+                        alt="Hollywood Sign on The Hill" />
+                    </div>
+                    <div class="ml-4 grow">
+                      <p class="mb-1 font-semibold ">
+                        Quality Policy
+                      </p>
+                      <!-- <p>Sta. Rosa City, Laguna</p> -->
+                    </div>
+                  </a>
+                  
+                  
+
+                </div>
 
               </div>
     

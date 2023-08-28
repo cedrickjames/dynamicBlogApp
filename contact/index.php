@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 
 if(isset($_POST["sendEmail"])){
@@ -70,10 +70,10 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elecsys</title>
-    <link rel="shortcut icon" href="./resources/img/Elecsys Images/elecsys-site-logo-1.png">
+    <link rel="shortcut icon" href="../resources/img/Elecsys Images/elecsys-site-logo-1.png">
     <!-- font awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" /> -->
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
   
      <!-- tailwind play cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -81,21 +81,21 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
      <!-- from flowbite cdn -->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     
-    <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- browser logo -->
-    <link rel="shortcut icon" href="resources/img/logo.png">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="../resources/img/logo.png">
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
-    <script src="node_modules/aos/src/js/aos.js"></script>
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
+    <script src="../node_modules/aos/src/js/aos.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
-    <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
 
     <!-- back on top button css -->
 
@@ -155,7 +155,28 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
     order: -1; /* Default order */
   }
 
+  .image-container {
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 0.5rem;
+        }
 
+        #thumbnailContainer {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+        }
+
+        .thumbnail {
+            width: 100%;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 0.5rem;
+            cursor: pointer;
+        }
 
 </style>
     
@@ -226,289 +247,260 @@ activepage.classList.add("text-cyan-500");
 <div class="relative overflow-hidden h-1/2 lg:h-screen">
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
-    <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div>
-<div class="relative isolate w-full px-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
-    <!-- <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-      <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#083344] to-[#082f49] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div> -->
-    <div class=" pl-0 lg:pl-32 max-w-2xl  sm:py-24 py-32">
+    <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
+<div class="relative isolate w-full p-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
+
+
+   
+    <section class="text-gray-600 body-font relative h-full w-full">
+  <div class="absolute inset-0 bg-gray-300">
+    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Elecsys Mfg. Corp, Lot 1B, Block 6, Phase II PEZA, Rosario, 4106 Cavite&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style=""></iframe>
+  </div>
+  
+</section>
+ 
+  </div>
+</div>
+  </div>
+
+
+</div>
+<section class="overflow-hidden text-neutral-700 text-center" id="certificates">
+  <div class=" mx-auto p-2 md:px-10 md:py-4 lg:px-10 lg:py-10">
+  <h1 class=" text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
+        class="text-transparent bg-clip-text bg-gray-900">Certifications</span>
+    </h1>
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+        <div  class="mt-4 sm:mt-12 lg:mt-10 ">
+        <div >
       <div class=" mb-8 text-center sm:text-left">
-        <div class="relative rounded-full px-3 py-1 text-xs sm:text-sm leading-6 text-gray-100 ring-1 ring-gray-300/10 hover:ring-gray-300/20">
-          You may send us inquiries <a href="#contact" class="font-semibold text-sky-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Elecsys Manufacturing Corporation Certificate
         </div>
       </div>
       <div class="text-center sm:text-left">
-        <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">ELECSYS</h1>
-        <h3 class="mt-4 text-2xl font-bold tracking-tight text-gray-200 text-xl sm:text-2xl">MANUFACTURING CORPORATION</h3>
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">IATF 16949:2016</h1>
+        <p class="text-justify mt-6 text-lg leading-8 text-gray-600">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be in conformance to the IATF 16949:2016</p>
+        <h3 class="text-left mt-4 text-2xl font-bold tracking-tight text-gray-600 text-xl sm:text-2xl">	Scope of Registration:</h3>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">Manufacture of printed circuit board assembly (PCBA)
+</p>
 
-        <p class="mt-6 text-lg leading-8 text-gray-300">Elecsys Manufacturing Corporation provides EMS solutions based in the Philippine Free Trade Zone</p>
-        <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
-          <a href="#home" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</a>
-          <a href="#more" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
-        </div>
+        <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
+          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+        </div> -->
       </div>
     </div>
-    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-      <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#083344] to-[#082f49] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-  </div>
-  </div>
-</div>
-  </div>
- 
-<section class="mt-0 sm:mt-24 mb-22" id="home">
-
-  <div class="px-0 sm:px-32  py-12 md:px-32 bg-white text-gray-800 text-center lg:text-left">
-    <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
-        class="text-transparent bg-clip-text bg-gray-900">Manufacturing Capabilities</span>
-    </h1>
-
-    <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
-    State-of-the-art equipment with highly skilled operators having over 30 years of experience. 
-  </p>
-    <div class="container">
-      <div class="grid lg:grid-cols-2 gap-12 flex items-center">
-        <div  class="mt-12 lg:mt-10 ">
-        <h2 class="mb-2 text-3xl font-semibold text-gray-900 dark:text-gray-900 mb-4">Elecsys Capabilities</h2>
-            <div class="text-lg ml-4">
-
-            <ul class=" space-y-1 text-gray-500 list-inside dark:text-gray-900 flex flex-col gap-2">
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Electronic and Microelectronics Assembly
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Electro-Mechanical Assembly
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    X-ray analysis system
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Four fully-equipped SMT lines With Solder Paste Inspection machine.
-
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    RoHS or non-RoHS assemblies
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Nitrogen (N2) Reflow Oven and 12 Zone IR Reflow Oven
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Lead Free wave solder machine
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Automated optical inspection stations Both 3D and 2D for all SMT lines
-                </li>
-
-
-
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Automated Radial Insertion machine
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Laser Etching machine
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Tape and Reel Capabilities.
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Automated Conformal Coating Line.
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Full Test Capabilities.
-                </li>  <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Full Turnkey and Consignment services.
-                </li>
-
-            </ul>
-           
-       
-</div>
         </div>
         <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"  class="h-full">
           <img
-            src="resources/img/Elecsys Images/elecsys-site-logo-1.png"
-            class=" w-3/6 md:5/6 lg:w-full rounded-lg h-max  m-auto lg:my-20"
+            src="../resources/img/Elecsys Images/cert.png"
+            class=" w-full rounded-lg h-max  m-auto lg:my-20"
             alt=""
           />
         </div>
       </div>
-    </div>
-    <h2 class="hidden mt-10 mb-2 text-3xl font-semibold text-gray-900 dark:text-gray-900 mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsam! Eligendi neque ipsam a quo assumenda commodi amet magnam, sint optio velit atque porro cum iste laboriosam fugiat maxime accusantium?
-</h2>
   </div>
-</section>
-<!-- Section: Design Block -->
+  <div class="container" id="certificates2">
+      <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+        <div  class="mt-12 lg:mt-10 ">
+        <div >
+      <div class=" mb-8 text-center sm:text-left">
+      <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          Elecsys Manufacturing Corporation Certificate
+        </div>
+      </div>
+      <div class="text-center sm:text-left">
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">ISO 9001:2015</h1>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be in conformance to the ISO 9001:2015</p>
+        <h3 class="text-left  mt-4 text-2xl font-bold tracking-tight text-gray-600 text-xl sm:text-2xl">	Scope of Registration:</h3>
+        <p class="text-justify  mt-6 text-lg leading-8 text-gray-600">	Manufacture of display modules, security system RFID and printed circuit board assembly(PCBA)</p>
+
+        <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
+          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+        </div> -->
+      </div>
+    </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  class="h-full">
+          <img
+            src="../resources/img/Elecsys Images/cert2.png"
+            class="w-full rounded-lg h-max  m-auto lg:my-20"
+            alt=""
+          />
+        </div>
+      </div>
+  </div>
+  <div class="hidden grid gap-4">
+        <div class="image-container" id="mainImageContainer" style="background-image: url('../resources/img/Elecsys Images/cert.png');">
+        </div>
+        <div class="grid" id="thumbnailContainer">
+            <div class="thumbnail" style="background-image: url('../resources/img/Elecsys Images/cert.png');"></div>
+            <div class="thumbnail" style="background-image: url('../resources/img/Elecsys Images/cert2.png');"></div>
+            <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg');"></div>
+            <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg');"></div>
+            <div class="thumbnail" style="background-image: url('https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg');"></div>
+        </div>
+    </div>
 
 
+  </div>
+  </section>
+
+  <section id="mission"  class=" mb-22 m-2.5">
+    <div class="grid grid-cols-3 bg-red ">
+        <div  class="col-span-3 md:col-span-2 m-2 sm:m-10">
+            <!-- <p class="ml-1 my-4 text-lg text-gray-500">License: HLURB LTS No. 30729</p> -->
+            <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
+            </h1>
+
+            <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
+            Our mission is to exceed curtomer's expectations by providing the highest quality products with the most competitive prices  in a timely manner.
+            </p>
+            <div class="inline-flex items-center justify-center w-full">
+                <hr id="vission" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
+            </div>
+            <h1  class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vission</span>
+            </h1>
+
+            <p class="justify-center font-light text-xl text-gray-900 dark:text-gray-900">
+           As a world-class electronic manufacturing company, our vission is not to be the biggest contract manufacturer but one of the best with leading edge technology as a standard while not forgetting our roots.
+            </p>
+            <div class="text-lg ml-4">
+
+          
+</h2>
+            <p class="font-light text-xl text-gray-900 dark:text-gray-900">
+            </p>
+</div>
+  </div>
+  <div class="hidden md:block col-span-1 ">
+
+<div style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    
 </div>
 
+</div>
+  </div>
+  
+  </section>
+  <section id="qualitypolicy"class=" mb-22 m-0  bg-gray-900  ">
+    <div class=" grid grid-cols-3 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90%">
+        <div  class="  col-span-3 md:col-span-2 m-2 sm:m-10">
+        <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
+            </h1>
+            <div  class="">
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>lient focus is the 
+            approach of Elecsys to
+            </p>
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">U</span>pgrade services and achieved product requirements
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">S</span>ustain continual improvement of the Quality Management System by providing necessary trainings; Implement
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>ime bound to meet delivery; Use
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">0</span>pportunity and strength to advance and ensure continuous improvement; We
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">M</span>easure performance to guarantee customer satisfaction;
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>nhance quality awareness of employees at all level of all organization;
+           
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">R</span>esult driven to ensure customers, shareholders and employees have their expectation exceeded while complying to related statutory and regulatory requirements.
+           
+            </p>
+            </div>
+         
+           <div >
+
+
+    </div>
+          
+          
+
+  </div>
+  <div class="hidden md:block col-span-1 m-10">
+
+<div style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    
+</div>
+
+</div>
+  </div>
+  
+  </section>
 <section class="overflow-hidden text-neutral-700 text-center" id="more">
 <!-- <h1 class="m-auto text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
                     class="text-transparent bg-clip-text bg-gray-900">Certification and Registrations</span>
             </h1> -->
   <div class=" mx-auto px-2 sm:px-8 py-2 lg:px-8 lg:pt-10">
-    <div class="grid grid-col-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
+    <div class="grid grid-col-1 lg:grid-cols-4 md:grid-cols-2 gap-4">
     <div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="./qualitysystem#certificates" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/cert.png')">
+    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('../resources/img/Elecsys Images/cert.png')">
         <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert.png" alt="" /> -->
     </a>
     <div class="p-5">
-        <a href="./qualitysystem#certificates" >
+        <a href="#" >
             <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">IATF 16949: 2016 Certified</h5>
         </a>
         <p class="mb-3 font-normal text-gray-400">Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be conformance to the following standard(s)</p>
-        <a href="./qualitysystem#certificates" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
     </div>
 </div>
 <div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="./qualitysystem#certificates" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/cert2.png')">
+    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('../resources/img/Elecsys Images/cert2.png')">
         <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert2.png" alt="" /> -->
     </a>
     <div class="p-5">
-        <a href="./qualitysystem#certificates">
+        <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">ISO 9001 : 2015 Certified</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Manufacture of Display Modules and PCBA has been assessed and registered by NQA agaist the provisions of BS EN ISO 9001  ...</p>
-        <a href="./qualitysystem#certificates" class=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+        <a href="#" class=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
     </div>
 </div>
 <div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Background Images/home_no_1_min.jpg')">
+    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('../resources/img/Background Images/home_no_1_min.jpg')">
         <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
     </a>
     <div class="p-5">
-        <a href="./qualitysystem#mission">
+        <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Mission</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is ti exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
-        <a href="./qualitysystem#mission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is to exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
+        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
     </div>
 </div>
 <div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="./qualitysystem#vission" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/mission.png')">
+    <a href="#" class="block bg-cover bg-center h-60" style="background-image: url('../resources/img/Elecsys Images/mission.png')">
         <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
     </a>
     <div class="p-5">
-        <a href="./qualitysystem#vission">
+        <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vission</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
-        <a href="./qualitysystem#vission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
+        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </a>
     </div>
 </div>
-<div style="background-color: #0f142a" class="mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="./qualitysystem#qualitypolicy" class="block bg-cover bg-center h-60" style="background-image: url('./resources/img/Elecsys Images/mission.png')">
-        <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
-    </a>
-    <div class="p-5">
-        <a href="./qualitysystem#qualitypolicy">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Quality Policy</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Client focus is the approach of Elecsys to upgrade services and achieved product requirements sustain continual improvement of the Quality Managementt...</p>
-        <a href="./qualitysystem#qualitypolicy" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
-            Read more
-            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-        </a>
-    </div>
-</div>
+
     </div>
 
 
@@ -517,7 +509,9 @@ activepage.classList.add("text-cyan-500");
 <!-- Container -->
 
 
-  
+
+
+
 
 
 </div>
@@ -537,10 +531,324 @@ activepage.classList.add("text-cyan-500");
 
 
 <!-- Container for demo purpose -->
+<div class="container py-0 sm:px-6 mx-auto" >
+
+  <!-- Section: Design Block -->
+  <section class="hidden text-gray-800 text-center">
+
+    <h2 class="text-3xl font-bold my-12 text-center">Latest articles</h2>
+
+    <div 
+     class="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/ther season1.jpg"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+          
+          <h5 class="text-lg font-bold mb-3">Zeal Residences</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+            
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>3,100,000</u> - Php 3,200,000
+              <a href="#" class="text-gray-900">General Trias, Cavite</a></small>
+          </p>
+       
+          <!-- <p class="text-gray-500">
+          Inspired by the four seasons of Japan, The Seasons Residences is a seamless fusion of 
+          Japanese innovations and the Filipino sense of community meant to elevate the standards of comfort, 
+          convenience, and functionality for its discerning homeowners.
+          </p> -->
+        </div>
+      </div>
+
+
+
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/zeal1.jpg"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+
+          <h5 class="text-lg font-bold mb-3">Gold Residential-Offices</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+      
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>7,800,000</u> - Php 9,900,000
+              <a href="" class="text-gray-900">Across NAIA Terminal 1</a></small>
+          </p>
+          <!-- <p class="text-gray-500">
+          Zeal Residences is a new, modern and dynamic residential complex, located in the City of General Trias, Cavite, 
+          a fast-growing residential, commercial, & industrial hotspot that has become one of the most popular real estate hubs 
+          in the Philippines. With an integrated commercial strip and various leisure, recreational, and wellness amenities 
+          integrated into the gated residential complex
+          </p> -->
+        </div>
+      </div>
 
 
 
 
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/theGlades.jpg"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+
+          <h5 class="text-lg font-bold mb-3">Glade Residences</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+          
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>3,000,000</u> - Php 3,200,000
+              <a href="" class="text-gray-900">Jaro, Ilo-ilo</a></small>
+          </p>
+          <!-- <p class="text-gray-500">
+          Zeal Residences is a new, modern and dynamic residential complex, located in the City of General Trias, Cavite, 
+          a fast-growing residential, commercial, & industrial hotspot that has become one of the most popular real estate hubs 
+          in the Philippines. With an integrated commercial strip and various leisure, recreational, and wellness amenities 
+          integrated into the gated residential complex
+          </p> -->
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- second row -->
+
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/calm.png"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+
+          <h5 class="text-lg font-bold mb-3">Calm Residences</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+          
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>3,200,000</u> - Php 3,300,000
+              <a href="" class="text-gray-900">Santa Rosa City, Laguna</a></small>
+          </p>
+        
+        </div>
+      </div>
+
+
+
+
+
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/joy.png"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+
+          <h5 class="text-lg font-bold mb-3">Joy Residences</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>2,900,000</u> - Php 3,,300,00
+              <a href="" class="text-gray-900">Baliwag, Bulacan</a></small>
+          </p>
+        
+        </div>
+      </div>
+
+      <div class="mb-6 lg:mb-0">
+        <div>
+          <div
+            class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg mb-6"
+            data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img src="resources/img/ice tower.png"
+              class="w-full h-60" alt="Louvre" />
+            <a href="properties">
+              <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+
+          <h5 class="text-lg font-bold mb-3">Ice Tower Residential - Offices</h5>
+          <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center">
+          </div>
+          <p class="text-gray-500 mb-6">
+            <small>Php <u>7,500,000</u> - Php 12,500,000
+              <a href="" class="text-gray-900">Mall of Asia Complex - Pasay City</a></small>
+          </p>
+        
+        </div>
+      </div>
+
+      <!-- end of second row -->
+
+
+
+
+
+      
+
+      
+
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+  </div>
+
+
+
+<div class="container py-2  px-2 sm:px-6 mx-auto" id="services">
+
+  <!-- Section: Design Block -->
+  <section class="hidden mb-20 text-gray-800">
+    <h2 class="text-3xl font-bold mb-12 text-center">What We Do Offer
+    <!-- <hr class="my-6 border-yellow-500" /> -->
+    </h2>
+
+    <div class="flex flex-wrap items-center">
+      <div  class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 md:px-6">
+        <div class="relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg" data-mdb-ripple="true"
+          data-mdb-ripple-color="light" style="background-position: 50%">
+          <img src="resources/img/image1.png" class="w-full" />
+          <a href="#!">
+            <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+              style="background-color: rgba(0, 0, 0, 0.4)">
+              <div class="flex justify-center items-center h-full">
+                <div class="px-6 py-12 md:px-12 text-white text-center">
+                  <h3 class="text-2xl uppercase font-bold mb-6">
+                    The future is now
+                  </h3>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="relative overflow-hidden bg-no-repeat bg-cover">
+              <div
+                class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div  class="grow-0 shrink-0 basis-auto w-full lg:w-7/12 md:px-6">
+        <div  class="flex mb-12">
+          <div class="shrink-0">
+            <div class="p-4 rounded-md shadow-lg" style="background-color: hsl(204, 30%, 20%)">
+              <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="grow ml-4">
+            <p class="font-bold mb-1">All Agent Services</p>
+            <p class="text-gray-500">
+            End-to-end real estate services provided by top agents you can trust, be it for buying, selling, or renting, and more.
+            </p>
+          </div>
+        </div>
+
+        <div  data-aos-delay="100" class="flex mb-12">
+          <div class="shrink-0">
+            <div class="p-4 rounded-md shadow-lg" style="background-color: hsl(204, 30%, 20%)">
+              <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="grow ml-4">
+            <p class="font-bold mb-1">Investing</p>
+            <p class="text-gray-500">
+            This SMDC Investment primer will help you fully understand what the Corporation is for, and how it can work to serve your best interests.
+
+            </p>
+          </div>
+        </div>
+
+        <div  data-aos-delay="200" class="flex mb-12">
+          <div class="shrink-0">
+            <div class="p-4 rounded-md shadow-lg" style="background-color: hsl(204, 30%, 20%)">
+            <svg   class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"></path>
+</svg>
+            </div>
+          </div>
+          <div class="grow ml-4">
+            <p class="font-bold mb-1">Rental Business</p>
+            <p class="text-gray-500">
+            Avail our Early Occupancy Program and Move-in now to your new Property 
+            </p>
+          </div>
+        </div>
+
+        <div  data-aos-delay="300" class="flex">
+          <div class="shrink-0">
+            <div class="p-4 rounded-md shadow-lg" style="background-color: hsl(204, 30%, 20%)">
+            <svg  class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"></path>
+</svg>
+      
+            </div>
+          </div>
+          <div class="grow ml-4">
+            <p class="font-bold mb-1">Earn</p>
+            <p class="text-gray-500">
+              Be our marketing partner and earn 250k upto 500k
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
 <!-- Container for demo purpose -->
 
 
@@ -715,7 +1023,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex align-start">
               <div class="shrink-0">
                 <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                <a href="#" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
+                <a href="https://www.facebook.com/teamrayproperties/" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
                 <i class="fa-brands fa-facebook fa-lg"></i>
               </a>
                 
@@ -723,7 +1031,7 @@ activepage.classList.add("text-cyan-500");
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Facebook</p>
-                <a href="#" class="text-gray-500">Elecsys</a>
+                <a href="https://www.facebook.com/teamrayproperties/" class="text-gray-500">Elecsys</a>
                
               </div>
             </div>
@@ -779,7 +1087,7 @@ activepage.classList.add("text-cyan-500");
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
             <a href="https://flowbite.com/" class="flex items-center">
-                <img src="resources/img/logo/elecsys-logo-colored.png" class="h-8 mr-3" alt="FlowBite Logo" />
+                <img src="../resources/img/logo/elecsys-logo-colored.png" class="h-8 mr-3" alt="Elecsys Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
             </a>
         </div>
@@ -799,10 +1107,19 @@ activepage.classList.add("text-cyan-500");
     </div>
 </footer>
 <!-- end of main -->
+<script>
+          const mainImageContainer = document.getElementById('mainImageContainer');
+        const thumbnails = document.querySelectorAll('.thumbnail');
 
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                mainImageContainer.style.backgroundImage = thumbnail.style.backgroundImage;
+            });
+        });
+    </script>
 <script>
   const slideshow = document.getElementById('slideshow');
-  const images = ['resources/img/Background Images/home_no_1_min.jpg', 'resources/img/Background Images/home_no_2_min.jpg', 'resources/img/Background Images/home_no_3_min.jpg', 'resources/img/Background Images/home_no_4_min.jpg', 'resources/img/Background Images/home_no_5_min.jpg', 'resources/img/Background Images/home_no_6_min.jpg']; // Add your image URLs here
+  const images = ['../resources/img/Background Images/home_no_1_min.jpg', '../resources/img/Background Images/home_no_2_min.jpg', '../resources/img/Background Images/home_no_3_min.jpg', '../resources/img/Background Images/home_no_4_min.jpg', '../resources/img/Background Images/home_no_5_min.jpg', '../resources/img/Background Images/home_no_6_min.jpg']; // Add your image URLs here
   let currentImageIndex = 0;
   
   function changeBackgroundImage() {
@@ -824,7 +1141,7 @@ activepage.classList.add("text-cyan-500");
   // Run the transition every 5 seconds
   setInterval(changeBackgroundImage, 5000);
 </script>
-<script src="sample.js"></script>
+<script src="../sample.js"></script>
 
 
 <script>
