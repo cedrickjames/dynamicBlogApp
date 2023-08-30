@@ -431,6 +431,10 @@ display: block;
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
+        <li class=" mb-2 justify-center h-full items-center flex">
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+            href="contact" data-te-ripple-init data-te-ripple-color="light">Contact Us</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -445,7 +449,7 @@ display: block;
         <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Website Template1</span> -->
     </a>
   <div class="flex md:order-2">
-    <a  href="tel:+639175253067" type="button" class="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">Contact Us</a>
+    <a  href="tel:+639175253067" type="button" class="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">Call Us</a>
       <button data-drawer-target="sidebar" data-drawer-show="sidebar" aria-controls="sidebar"type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"  aria-expanded="false">
       <span class="sr-only">Open main menu</span>
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -479,6 +483,9 @@ display: block;
         </li>
         <li>
           <a href="aboutus" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
+        </li>
+        <li>
+          <a href="contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -530,6 +537,16 @@ display: block;
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    
+    </div>
+    </div>
+            </a>
+            <a class="" href="contact">  
+    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
+
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    
     </div>
     </div>
             </a>

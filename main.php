@@ -557,7 +557,7 @@ activepage.classList.add("text-cyan-500");
 
 
 
-<div class="container px-0 sm:px-6 mx-auto" id="contact">
+<div class="hidden container px-0 sm:px-6 mx-auto" id="contact">
 <div class="container my-0 sm:my-16  px-0 sm:px-6 mx-auto">
 
   <!-- Section: Design Block -->
