@@ -229,6 +229,16 @@ activepage.classList.add("text-cyan-600");
 </div>
 </div>
 </section>
+<div class="mx-auto  w-5/6">
+<a type="button" href="../resources/documents/Elecsys-Profile-08042023-Revision-11.pdf" download="ElecSys Company Profile.pdf" class="w-full justify-center px-6 py-3.5 text-base font-medium text-white inline-flex items-center text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80">
+
+  <svg lass="w-4 h-4 text-white mr-2"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+</svg>
+Download Company Profile
+</a>
+</div>
+
 </div>
 
 

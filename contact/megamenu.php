@@ -431,6 +431,10 @@ display: block;
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="../aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
+        <li class=" mb-2 justify-center h-full items-center flex">
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+            href="../contact" data-te-ripple-init data-te-ripple-color="light">Contact Us</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -533,7 +537,15 @@ display: block;
     </div>
     </div>
             </a>
+            <a class="" href="../contact">  
+    <div class="h-full rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
+
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
     
+    </div>
+    </div>
+            </a>
 </div>
 
   
