@@ -235,7 +235,11 @@ activepage.classList.add("text-cyan-500");
 <div class="relative overflow-hidden h-1/2 lg:h-screen">
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
-    <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div>
+    <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
+    <video id="slideshow" autoplay muted loop class="absolute inset-0 object-cover w-full h-full">
+  <source src="./resources/vid/elecsys.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <div class="relative isolate w-full px-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
     <!-- <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#083344] to-[#082f49] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
@@ -810,28 +814,43 @@ activepage.classList.add("text-cyan-500");
 <!-- end of main -->
 
 <script>
-  const slideshow = document.getElementById('slideshow');
-  const images = ['resources/img/Background Images/home_no_1_min.jpg', 'resources/img/Background Images/home_no_2_min.jpg', 'resources/img/Background Images/home_no_3_min.jpg', 'resources/img/Background Images/home_no_4_min.jpg', 'resources/img/Background Images/home_no_5_min.jpg', 'resources/img/Background Images/home_no_6_min.jpg']; // Add your image URLs here
-  let currentImageIndex = 0;
+  // const slideshow = document.getElementById('slideshow');
+  // const images = ['resources/img/Background Images/home_no_1_min.jpg', 'resources/img/Background Images/home_no_2_min.jpg', 'resources/img/Background Images/home_no_3_min.jpg', 'resources/img/Background Images/home_no_4_min.jpg', 'resources/img/Background Images/home_no_5_min.jpg', 'resources/img/Background Images/home_no_6_min.jpg']; // Add your image URLs here
+  // let currentImageIndex = 0;
   
-  function changeBackgroundImage() {
-    const nextImageIndex = (currentImageIndex + 1) % images.length;
-    const nextImage = `url('${images[nextImageIndex]}')`;
+  // function changeBackgroundImage() {
+  //   const nextImageIndex = (currentImageIndex + 1) % images.length;
+  //   const nextImage = `url('${images[nextImageIndex]}')`;
 
-    slideshow.style.backgroundImage = nextImage; // Set the new image
-    slideshow.classList.add('dissolve-animation');
+  //   slideshow.style.backgroundImage = nextImage; // Set the new image
+  //   slideshow.classList.add('dissolve-animation');
 
-    setTimeout(() => {
-      // slideshow.classList.remove('dissolve-animation');
-      currentImageIndex = nextImageIndex;
-    }, 2000); // Adjust this duration to match the animation duration
-  }
+  //   setTimeout(() => {
+  //     // slideshow.classList.remove('dissolve-animation');
+  //     currentImageIndex = nextImageIndex;
+  //   }, 2000); // Adjust this duration to match the animation duration
+  // }
 
-  // Run the transition immediately on page load
-  changeBackgroundImage();
+  // // Run the transition immediately on page load
+  // changeBackgroundImage();
 
-  // Run the transition every 5 seconds
-  setInterval(changeBackgroundImage, 5000);
+  // // Run the transition every 5 seconds
+  // setInterval(changeBackgroundImage, 5000);
+
+  const video = document.getElementById('slideshow');
+
+function changeBackgroundVideo() {
+  video.play();
+}
+
+// Run the video immediately on page load
+changeBackgroundVideo();
+
+// Run the video continuously
+video.addEventListener('ended', function () {
+  video.currentTime = 0; // Restart the video
+  changeBackgroundVideo();
+});
 </script>
 <script src="sample.js"></script>
 
