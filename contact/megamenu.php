@@ -181,7 +181,7 @@ display: block;
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="../main.php" data-te-ripple-init data-te-ripple-color="light">Home</a>
         </li>
-        <li class="mb-2 dropdown justify-center h-full items-center flex"id="activeNav" >
+        <li class="mb-2 dropdown justify-center h-full items-center flex" >
           <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-cyan-600 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="../qualitysystem" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
             id="dropdownMenuButtonQ" data-te-dropdown-toggle-ref aria-expanded="false" data-te-nav-link-ref
@@ -431,7 +431,7 @@ display: block;
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="../aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
-        <li class=" mb-2 justify-center h-full items-center flex">
+        <li class=" mb-2 justify-center h-full items-center flex" id="activeNav">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
             href="../contact" data-te-ripple-init data-te-ripple-color="light">Contact Us</a>
         </li>

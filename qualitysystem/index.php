@@ -521,7 +521,7 @@ activepage.classList.add("text-cyan-500");
   </div>
   
   </section>
-<section class="overflow-hidden text-neutral-700 text-center" id="more">
+<section class="hidden overflow-hidden text-neutral-700 text-center" id="more">
 <!-- <h1 class="m-auto text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
                     class="text-transparent bg-clip-text bg-gray-900">Certification and Registrations</span>
             </h1> -->
@@ -952,7 +952,7 @@ activepage.classList.add("text-cyan-500");
 
 
 
-<div class="container px-0 sm:px-6 mx-auto" id="contact">
+<div class="hidden container px-0 sm:px-6 mx-auto" id="contact">
 <div class="container my-0 sm:my-16  px-0 sm:px-6 mx-auto">
 
   <!-- Section: Design Block -->

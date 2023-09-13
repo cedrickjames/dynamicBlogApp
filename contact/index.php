@@ -285,8 +285,8 @@ activepage.classList.add("text-cyan-500");
       </div>
     </div>
 
-    <div class="flex flex-wrap">
-      <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+    <div class="flex justify-center w-full">
+      <div class="hidden grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         <form action="main.php" method="POST">
           <div class="form-group mb-6">
             <input type="text" name="senderSubject" class="form-control block
