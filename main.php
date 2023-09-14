@@ -247,7 +247,7 @@ activepage.classList.add("text-cyan-500");
     <div class=" pl-0 lg:pl-32 max-w-2xl  sm:py-24 py-32">
       <div class=" mb-8 text-center sm:text-left">
         <div class="relative rounded-full px-3 py-1 text-xs sm:text-sm leading-6 text-gray-100 ring-1 ring-gray-300/10 hover:ring-gray-300/20">
-          You may send us inquiries <a href="#contact" class="font-semibold text-sky-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+          You may send us inquiries <a href="contact" class="font-semibold text-sky-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="text-center sm:text-left">
@@ -470,7 +470,7 @@ activepage.classList.add("text-cyan-500");
         <a href="./qualitysystem#certificates">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">ISO 9001 : 2015 Certified</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Manufacture of Display Modules and PCBA has been assessed and registered by NQA agaist the provisions of BS EN ISO 9001  ...</p>
+        <p class="mb-3 font-normal text-gray-400 ">Manufacture of Display Modules and PCBA has been assessed and registered by NQA agaist the provisions of BS EN ISO 9001  ...</p>
         <a href="./qualitysystem#certificates" class=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -485,7 +485,7 @@ activepage.classList.add("text-cyan-500");
         <a href="./qualitysystem#mission">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Mission</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Our mission is ti exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
+        <p class="mb-3 font-normal text-gray-400 ">Our mission is ti exceed our customer's expectations by providing the highest quality products with the most competitive prices in a timely manner.</p>
         <a href="./qualitysystem#mission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -500,7 +500,7 @@ activepage.classList.add("text-cyan-500");
         <a href="./qualitysystem#vission">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vission</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
+        <p class="mb-3 font-normal text-gray-400 ">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
         <a href="./qualitysystem#vission" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -515,7 +515,7 @@ activepage.classList.add("text-cyan-500");
         <a href="./qualitysystem#qualitypolicy">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Quality Policy</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Client focus is the approach of Elecsys to upgrade services and achieved product requirements sustain continual improvement of the Quality Managementt...</p>
+        <p class="mb-3 font-normal text-gray-400 ">Client focus is the approach of Elecsys to upgrade services and achieved product requirements sustain continual improvement of the Quality Managementt...</p>
         <a href="./qualitysystem#qualitypolicy" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
