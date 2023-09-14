@@ -1,5 +1,4 @@
 FROM php:7.1-apache
-LABEL maintainer="marerokevin@gmail.com"
 
 # Get repository and install wget and vim
 RUN apt-get update && apt-get install --no-install-recommends -y \
