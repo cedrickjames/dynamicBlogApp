@@ -252,11 +252,11 @@ activepage.classList.add("text-cyan-500");
 <div >
 <div class="h-screen">
 <!-- Section: Design Block -->
-<div class="relative overflow-hidden  h-3/6 lg:h-full">
+<div class="relative overflow-hidden  h-4/5 lg:h-full">
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
     <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
-<div class="relative pt-20 pb-10 isolate w-full p-6 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
+<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
 
 
    
@@ -281,7 +281,7 @@ activepage.classList.add("text-cyan-500");
   <section id="emailform" class="mb-8 text-gray-800">
     <div class="flex justify-center">
       <div class="text-center lg:max-w-3xl md:max-w-xl">
-        <h2 class="text-3xl font-bold mb-12 px-6">Contact us</h2>
+        <h2 class="text-4xl font-bold mb-12 px-6">Contact us</h2>
       </div>
     </div>
 
@@ -376,9 +376,9 @@ activepage.classList.add("text-cyan-500");
         </form>
       </div>
 
-      <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
-        <div class="flex flex-wrap">
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+      <div class="grow-0 shrink-0 basis-auto w-full ">
+        <div class="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full  px-3 lg:px-6">
             <div class="flex items-start">
               <div class="shrink-0">
                 <div style="background-color: #0f142a"
@@ -395,7 +395,7 @@ activepage.classList.add("text-cyan-500");
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full  px-3 lg:px-6">
             <div class="flex items-start">
               <div class="shrink-0">
                 <div style="background-color: #0f142a"
@@ -413,7 +413,7 @@ activepage.classList.add("text-cyan-500");
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full  px-3 lg:px-6">
             <div class="flex align-start">
               <div class="shrink-0">
                 <div style="background-color: #0f142a"
@@ -434,7 +434,7 @@ activepage.classList.add("text-cyan-500");
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full  px-3 lg:px-6">
             <div class="flex align-start">
               <div class="shrink-0">
                 <div style="background-color: #0f142a"
@@ -452,7 +452,7 @@ activepage.classList.add("text-cyan-500");
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full  px-3 lg:px-6">
             <div class="flex items-start">
               <div class="shrink-0">
                 <div style="background-color: #0f142a"
@@ -481,16 +481,16 @@ activepage.classList.add("text-cyan-500");
 <section id="emailform" class="mb-8 text-gray-800">
     <div class="flex justify-center">
       <div class="text-center lg:max-w-3xl md:max-w-xl">
-        <h2 class="text-3xl font-bold mb-12 px-6">International Sites</h2>
+        <h2 class="text-4xl font-bold mb-12 px-6">International Sites</h2>
       </div>
     </div>
-    <div class="flex justify-center">
+    <div class="lg:flex justify-left hidden ">
       <div class="text-center lg:max-w-3xl md:max-w-xl">
         <h2 class="text-3xl font-bold mb-12 px-6">Australia</h2>
       </div>
     </div>
     <div class="flex flex-wrap">
-      <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+      <div class="grow-0 shrink-0 basis-auto  mb-4 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         
       <!-- <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Elecsys Mfg. Corp, Lot 1B, Block 6, Phase II PEZA, Rosario, 4106 Cavite&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style=""></iframe> -->
         <iframe width="100%" height="100%" class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=993&amp;height=400&amp;hl=en&amp;q=Repco Hoxton Park&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
@@ -502,7 +502,11 @@ activepage.classList.add("text-cyan-500");
 
 
       </div>
-
+      <div class="lg:hidden justify-left flex ">
+      <div class="text-center lg:max-w-3xl md:max-w-xl">
+        <h2 class="text-3xl font-bold mb-12 px-6">Australia</h2>
+      </div>
+    </div>
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
         <div class="flex flex-wrap">
           <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
@@ -569,9 +573,9 @@ activepage.classList.add("text-cyan-500");
     <br>
     <br>
 
-    <div class="flex justify-center">
+    <div class="hidden lg:flex justify-left">
       <div class="text-center lg:max-w-3xl md:max-w-xl">
-        <h2 class="text-3xl font-bold mb-12 px-6">United States of America</h2>
+        <h2 class="text-2xl font-bold mb-12 px-6">United States of America</h2>
       </div>
     </div>
     <div class="flex flex-wrap">
@@ -586,7 +590,11 @@ activepage.classList.add("text-cyan-500");
 
 
       </div>
-
+      <div class="flex lg:hidden justify-left">
+      <div class="text-center lg:max-w-3xl md:max-w-xl">
+        <h2 class="text-2xl font-bold mb-12 px-6">United States of America</h2>
+      </div>
+    </div>
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
         <div class="flex flex-wrap">
           <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
