@@ -222,7 +222,7 @@ activepage.classList.add("text-cyan-600");
   </section>
      <section class="mt-0 sm:mt-24 mb-22 " id="virtual Tour">
 <div  class="mx-auto  w-5/6">
-<h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Virtual Tour</h2>
+<h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl mt-10 sm:mt-auto mb-4 md:mb-10 lg:mb-20">Virtual Tour</h2>
 
   <div
   class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden"
@@ -237,7 +237,7 @@ activepage.classList.add("text-cyan-600");
 </div>
 </div>
 </section>
-<div class="mx-auto  w-5/6">
+<div class="mx-auto mt-20  w-5/6">
 <a type="button" href="../resources/documents/Elecsys-Profile-08042023-Revision-11.pdf" download="ElecSys Company Profile.pdf" class="w-full justify-center px-6 py-3.5 text-base font-medium text-white inline-flex items-center text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80">
 
   <svg lass="w-4 h-4 text-white mr-2"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
